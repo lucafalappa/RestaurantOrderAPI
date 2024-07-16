@@ -52,3 +52,7 @@ Both the BACPAC file and the dump.sql file are located inside the folder "Restau
 ## Application startup
 
 Launch the web application directly from Visual Studio, making sure to set the startup project as “RestaurantOrderAPI.WebAPI” (the debugging profile turns out to be “RestaurantOrder-Dev”).
+
+## How to authenticate
+
+To perform the authentication, after the registration or login operations, it is necessary to copy the provided token within the Swagger's "Authorize" popup, according to the form "Bearer `<token>`"
